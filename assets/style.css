@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+.box{
+    padding: 20px;
+    background-color: rgb(232, 235, 237);
+}
+.posts{
+    width: 30%;
+    text-wrap: wrap;
+    border-radius: 5px;
+    background-color: rgb(152, 142, 175);
+    font-size: smaller;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.posts h1{
+    margin: 0;
+    margin-top: 10px;
+}
