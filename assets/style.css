@@ -3,7 +3,8 @@ body{
 }
 .box{
     padding: 20px;
-    background-color: rgb(232, 235, 237);
+    display : flex;
+    flex-wrap: wrap;
 }
 .posts{
     width: 30%;
@@ -14,8 +15,12 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition: all 0.5s;
 }
 .posts h1{
-    margin: 0;
     margin-top: 10px;
+    text: wrap;
+}
+.posts :hover{
+    transition: scaleY(1.2);
 }
