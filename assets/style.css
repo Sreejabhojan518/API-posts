@@ -1,26 +1,30 @@
 body{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
-.box{
+.outerbox{
     padding: 20px;
     display : flex;
     flex-wrap: wrap;
 }
 .posts{
     width: 30%;
+    margin-left: 25px;
     text-wrap: wrap;
     border-radius: 5px;
-    background-color: rgb(152, 142, 175);
+    background-color: rgb(145, 147, 148);
     font-size: smaller;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 10px;
     margin-bottom: 10px;
-    transition: all 0.5s;
+    border: 2px solid rgb(0, 0, 0);
 }
+
 .posts h1{
+    margin: 0;
     margin-top: 10px;
-    text: wrap;
+    margin-left: 5px;
+    text-wrap: wrap;
 }
-.posts :hover{
-    transition: scaleY(1.2);
+.posts:hover{
+    background-color: rgb(255, 255, 255);
 }
